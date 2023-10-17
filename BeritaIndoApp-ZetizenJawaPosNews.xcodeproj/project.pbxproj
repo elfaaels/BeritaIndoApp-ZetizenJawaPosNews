@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB458BFF2ADEBEE500D3B7B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB458BFE2ADEBEE500D3B7B9 /* AppDelegate.swift */; };
+		BB458C012ADEBEE500D3B7B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB458C002ADEBEE500D3B7B9 /* SceneDelegate.swift */; };
+		BB458C032ADEBEE500D3B7B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB458C022ADEBEE500D3B7B9 /* ViewController.swift */; };
+		BB458C062ADEBEE500D3B7B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB458C042ADEBEE500D3B7B9 /* Main.storyboard */; };
+		BB458C082ADEBEE500D3B7B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB458C072ADEBEE500D3B7B9 /* Assets.xcassets */; };
+		BB458C0B2ADEBEE500D3B7B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB458C092ADEBEE500D3B7B9 /* LaunchScreen.storyboard */; };
+		BB458C162ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB458C152ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsTests.swift */; };
+		BB458C202ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB458C1F2ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITests.swift */; };
+		BB458C222ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB458C212ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB458C122ADEBEE600D3B7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB458BF32ADEBEE500D3B7B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB458BFA2ADEBEE500D3B7B9;
+			remoteInfo = "BeritaIndoApp-ZetizenJawaPosNews";
+		};
+		BB458C1C2ADEBEE600D3B7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB458BF32ADEBEE500D3B7B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB458BFA2ADEBEE500D3B7B9;
+			remoteInfo = "BeritaIndoApp-ZetizenJawaPosNews";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB458BFB2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeritaIndoApp-ZetizenJawaPosNews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB458BFE2ADEBEE500D3B7B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB458C002ADEBEE500D3B7B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB458C022ADEBEE500D3B7B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB458C052ADEBEE500D3B7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB458C072ADEBEE500D3B7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB458C0A2ADEBEE500D3B7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB458C0C2ADEBEE500D3B7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB458C112ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeritaIndoApp-ZetizenJawaPosNewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB458C152ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaIndoApp_ZetizenJawaPosNewsTests.swift; sourceTree = "<group>"; };
+		BB458C1B2ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeritaIndoApp-ZetizenJawaPosNewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB458C1F2ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaIndoApp_ZetizenJawaPosNewsUITests.swift; sourceTree = "<group>"; };
+		BB458C212ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaIndoApp_ZetizenJawaPosNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB458BF82ADEBEE500D3B7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB458C0E2ADEBEE600D3B7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB458C182ADEBEE600D3B7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB458BF22ADEBEE500D3B7B9 = {
+			isa = PBXGroup;
+			children = (
+				BB458BFD2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews */,
+				BB458C142ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsTests */,
+				BB458C1E2ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsUITests */,
+				BB458BFC2ADEBEE500D3B7B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB458BFC2ADEBEE500D3B7B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB458BFB2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews.app */,
+				BB458C112ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsTests.xctest */,
+				BB458C1B2ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB458BFD2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews */ = {
+			isa = PBXGroup;
+			children = (
+				BB458BFE2ADEBEE500D3B7B9 /* AppDelegate.swift */,
+				BB458C002ADEBEE500D3B7B9 /* SceneDelegate.swift */,
+				BB458C022ADEBEE500D3B7B9 /* ViewController.swift */,
+				BB458C042ADEBEE500D3B7B9 /* Main.storyboard */,
+				BB458C072ADEBEE500D3B7B9 /* Assets.xcassets */,
+				BB458C092ADEBEE500D3B7B9 /* LaunchScreen.storyboard */,
+				BB458C0C2ADEBEE500D3B7B9 /* Info.plist */,
+			);
+			path = "BeritaIndoApp-ZetizenJawaPosNews";
+			sourceTree = "<group>";
+		};
+		BB458C142ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB458C152ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsTests.swift */,
+			);
+			path = "BeritaIndoApp-ZetizenJawaPosNewsTests";
+			sourceTree = "<group>";
+		};
+		BB458C1E2ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB458C1F2ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITests.swift */,
+				BB458C212ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITestsLaunchTests.swift */,
+			);
+			path = "BeritaIndoApp-ZetizenJawaPosNewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB458BFA2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB458C252ADEBEE600D3B7B9 /* Build configuration list for PBXNativeTarget "BeritaIndoApp-ZetizenJawaPosNews" */;
+			buildPhases = (
+				BB458BF72ADEBEE500D3B7B9 /* Sources */,
+				BB458BF82ADEBEE500D3B7B9 /* Frameworks */,
+				BB458BF92ADEBEE500D3B7B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeritaIndoApp-ZetizenJawaPosNews";
+			productName = "BeritaIndoApp-ZetizenJawaPosNews";
+			productReference = BB458BFB2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB458C102ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB458C282ADEBEE600D3B7B9 /* Build configuration list for PBXNativeTarget "BeritaIndoApp-ZetizenJawaPosNewsTests" */;
+			buildPhases = (
+				BB458C0D2ADEBEE600D3B7B9 /* Sources */,
+				BB458C0E2ADEBEE600D3B7B9 /* Frameworks */,
+				BB458C0F2ADEBEE600D3B7B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB458C132ADEBEE600D3B7B9 /* PBXTargetDependency */,
+			);
+			name = "BeritaIndoApp-ZetizenJawaPosNewsTests";
+			productName = "BeritaIndoApp-ZetizenJawaPosNewsTests";
+			productReference = BB458C112ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB458C1A2ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB458C2B2ADEBEE600D3B7B9 /* Build configuration list for PBXNativeTarget "BeritaIndoApp-ZetizenJawaPosNewsUITests" */;
+			buildPhases = (
+				BB458C172ADEBEE600D3B7B9 /* Sources */,
+				BB458C182ADEBEE600D3B7B9 /* Frameworks */,
+				BB458C192ADEBEE600D3B7B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB458C1D2ADEBEE600D3B7B9 /* PBXTargetDependency */,
+			);
+			name = "BeritaIndoApp-ZetizenJawaPosNewsUITests";
+			productName = "BeritaIndoApp-ZetizenJawaPosNewsUITests";
+			productReference = BB458C1B2ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB458BF32ADEBEE500D3B7B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BB458BFA2ADEBEE500D3B7B9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BB458C102ADEBEE600D3B7B9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB458BFA2ADEBEE500D3B7B9;
+					};
+					BB458C1A2ADEBEE600D3B7B9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB458BFA2ADEBEE500D3B7B9;
+					};
+				};
+			};
+			buildConfigurationList = BB458BF62ADEBEE500D3B7B9 /* Build configuration list for PBXProject "BeritaIndoApp-ZetizenJawaPosNews" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB458BF22ADEBEE500D3B7B9;
+			productRefGroup = BB458BFC2ADEBEE500D3B7B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB458BFA2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews */,
+				BB458C102ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsTests */,
+				BB458C1A2ADEBEE600D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB458BF92ADEBEE500D3B7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB458C0B2ADEBEE500D3B7B9 /* LaunchScreen.storyboard in Resources */,
+				BB458C082ADEBEE500D3B7B9 /* Assets.xcassets in Resources */,
+				BB458C062ADEBEE500D3B7B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB458C0F2ADEBEE600D3B7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB458C192ADEBEE600D3B7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB458BF72ADEBEE500D3B7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB458C032ADEBEE500D3B7B9 /* ViewController.swift in Sources */,
+				BB458BFF2ADEBEE500D3B7B9 /* AppDelegate.swift in Sources */,
+				BB458C012ADEBEE500D3B7B9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB458C0D2ADEBEE600D3B7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB458C162ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB458C172ADEBEE600D3B7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB458C222ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITestsLaunchTests.swift in Sources */,
+				BB458C202ADEBEE600D3B7B9 /* BeritaIndoApp_ZetizenJawaPosNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB458C132ADEBEE600D3B7B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB458BFA2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews */;
+			targetProxy = BB458C122ADEBEE600D3B7B9 /* PBXContainerItemProxy */;
+		};
+		BB458C1D2ADEBEE600D3B7B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB458BFA2ADEBEE500D3B7B9 /* BeritaIndoApp-ZetizenJawaPosNews */;
+			targetProxy = BB458C1C2ADEBEE600D3B7B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB458C042ADEBEE500D3B7B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB458C052ADEBEE500D3B7B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB458C092ADEBEE500D3B7B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB458C0A2ADEBEE500D3B7B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB458C232ADEBEE600D3B7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB458C242ADEBEE600D3B7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB458C262ADEBEE600D3B7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeritaIndoApp-ZetizenJawaPosNews/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elfaael.BeritaIndoApp-ZetizenJawaPosNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB458C272ADEBEE600D3B7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeritaIndoApp-ZetizenJawaPosNews/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elfaael.BeritaIndoApp-ZetizenJawaPosNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB458C292ADEBEE600D3B7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elfaael.BeritaIndoApp-ZetizenJawaPosNewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeritaIndoApp-ZetizenJawaPosNews.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeritaIndoApp-ZetizenJawaPosNews";
+			};
+			name = Debug;
+		};
+		BB458C2A2ADEBEE600D3B7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elfaael.BeritaIndoApp-ZetizenJawaPosNewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeritaIndoApp-ZetizenJawaPosNews.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeritaIndoApp-ZetizenJawaPosNews";
+			};
+			name = Release;
+		};
+		BB458C2C2ADEBEE600D3B7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elfaael.BeritaIndoApp-ZetizenJawaPosNewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeritaIndoApp-ZetizenJawaPosNews";
+			};
+			name = Debug;
+		};
+		BB458C2D2ADEBEE600D3B7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elfaael.BeritaIndoApp-ZetizenJawaPosNewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeritaIndoApp-ZetizenJawaPosNews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB458BF62ADEBEE500D3B7B9 /* Build configuration list for PBXProject "BeritaIndoApp-ZetizenJawaPosNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB458C232ADEBEE600D3B7B9 /* Debug */,
+				BB458C242ADEBEE600D3B7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB458C252ADEBEE600D3B7B9 /* Build configuration list for PBXNativeTarget "BeritaIndoApp-ZetizenJawaPosNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB458C262ADEBEE600D3B7B9 /* Debug */,
+				BB458C272ADEBEE600D3B7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB458C282ADEBEE600D3B7B9 /* Build configuration list for PBXNativeTarget "BeritaIndoApp-ZetizenJawaPosNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB458C292ADEBEE600D3B7B9 /* Debug */,
+				BB458C2A2ADEBEE600D3B7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB458C2B2ADEBEE600D3B7B9 /* Build configuration list for PBXNativeTarget "BeritaIndoApp-ZetizenJawaPosNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB458C2C2ADEBEE600D3B7B9 /* Debug */,
+				BB458C2D2ADEBEE600D3B7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB458BF32ADEBEE500D3B7B9 /* Project object */;
+}
